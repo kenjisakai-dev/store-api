@@ -59,9 +59,48 @@ async function getProduct(id) {
   }
 }
 
+async function deleteProductInfo(productId) {
+  const client = getClient();
+  try {
+    await client.connect();
+    return await client
+      .db('store-api')
+      .collection('productInfo')
+      .deleteOne({ productId });
+  } catch (err) {
+    throw err;
+  } finally {
+    await client.close();
+  }
+}
+
+async function createReview(review, productId) {
+  try {
+    const productInfo = await getProductInfo(productId);
+    productInfo.reviews.push(review);
+    await updateProductInfo(productInfo);
+    return review;
+  } catch (err) {
+    throw err;
+  }
+}
+
+async function deleteReview(productId, index) {
+  try {
+    const productInfo = await getProductInfo(productId);
+    productInfo.reviews.splice(index, 1);
+    await updateProductInfo(productInfo);
+  } catch (err) {
+    throw err;
+  }
+}
+
 export default {
   createProductInfo,
   updateProductInfo,
   getProductInfo,
   getProduct,
+  deleteProductInfo,
+  createReview,
+  deleteReview,
 };

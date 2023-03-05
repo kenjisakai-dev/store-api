@@ -1866,3 +1866,83 @@ O product_id informado não existe.
 2023-03-05T04:35:07.929Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
 2023-03-05T04:38:20.509Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12,"info":{"_id":"64040b91e4c17511a6022be7","productId":25,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}}
 2023-03-05T04:38:48.322Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12,"info":{"_id":"64040b91e4c17511a6022be7","productId":25,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}}
+2023-03-05T17:16:46.115Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T17:18:35.311Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:36.983Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:37.590Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:38.156Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:38.670Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:39.232Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:39.803Z [store-api] error DELETE undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T17:18:45.072Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T17:18:52.337Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T17:39:24.970Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"review":{"name":"Kenji Sakai","description":"teste teste teste"},"_id":"6404d3ccb146e25cae588980"}
+2023-03-05T17:40:53.534Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:40:58.220Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:41:15.035Z [store-api] error POST undefined - Cannot read properties of null (reading 'review')
+2023-03-05T17:41:17.674Z [store-api] error POST undefined - Cannot read properties of null (reading 'review')
+2023-03-05T17:41:53.165Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:42:56.515Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:42:59.061Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:43:27.043Z [store-api] error POST undefined - O Review e ProductInfo ID são obrigatórios.
+2023-03-05T17:43:27.995Z [store-api] error POST undefined - O Review e ProductInfo ID são obrigatórios.
+2023-03-05T17:43:29.920Z [store-api] error POST undefined - O Review e ProductInfo ID são obrigatórios.
+2023-03-05T17:43:49.686Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:43:53.560Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:46:00.195Z [store-api] error POST undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T17:47:51.938Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T17:48:10.099Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T17:48:27.226Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T17:50:23.619Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T17:51:50.387Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T17:52:08.082Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T17:54:11.552Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:07:59.659Z [store-api] error DELETE undefined - O ProductInfo ID e Review são obrigatórios.
+2023-03-05T18:08:25.860Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:09:16.422Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"6404dacc4a126219d6b47b3c"}
+2023-03-05T18:09:24.132Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:09:29.034Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:09:56.288Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:10:31.555Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:13:45.431Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:15:11.287Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:15:14.544Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:16:57.783Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:17:10.718Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:23:19.908Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:23:22.778Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:23:26.577Z [store-api] error DELETE undefined - Cannot read properties of null (reading 'reviews')
+2023-03-05T18:26:51.350Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:28:03.580Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:32:49.784Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:32:54.207Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:32:58.550Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:33:02.967Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:33:06.437Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:33:22.399Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:34:08.119Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:36:00.447Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:40:20.495Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:41:49.890Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:44:51.765Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:46:07.818Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:47:03.815Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:47:24.586Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:47:53.137Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:49:53.731Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:49:57.869Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:50:01.283Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:51:06.770Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:55:36.098Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:56:03.240Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:56:56.588Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:57:00.047Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:57:03.653Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T18:57:06.813Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T18:59:05.082Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T19:00:51.424Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T19:22:49.030Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T19:23:34.023Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T19:23:58.028Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T19:30:02.234Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T19:30:08.956Z [store-api] info [PRODUCT_INFO] DELETE

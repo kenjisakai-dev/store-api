@@ -14,4 +14,23 @@ async function getProductInfo(id) {
   return product;
 }
 
-export default { createProductInfo, updateProductInfo, getProductInfo };
+async function deleteProductInfo(id) {
+  return await ProductInfoRepository.deleteProductInfo(parseInt(id));
+}
+
+async function createReview(review, id) {
+  return await ProductInfoRepository.createReview(review, id);
+}
+
+async function deleteReview(productId, index) {
+  await ProductInfoRepository.deleteReview(parseInt(productId), index);
+}
+
+export default {
+  createProductInfo,
+  updateProductInfo,
+  getProductInfo,
+  deleteProductInfo,
+  createReview,
+  deleteReview,
+};

@@ -38,4 +38,56 @@ async function getProductInfo(req, res, next) {
   }
 }
 
-export default { createProductInfo, updateProductInfo, getProductInfo };
+async function deleteProductInfo(req, res, next) {
+  try {
+    const productInfo = await ProductInfoService.getProductInfo(req.params.id);
+    await ProductInfoService.deleteProductInfo(req.params.id);
+    res.send({
+      message: 'O ProductInfo ID informado foi excluído com sucesso.',
+      productInfo: productInfo,
+    });
+    logger.info(`[PRODUCT_INFO] DELETE`);
+  } catch (err) {
+    next(err);
+  }
+}
+
+async function createReview(req, res, next) {
+  try {
+    let params = req.body;
+    if (!params.productId || !params.review) {
+      throw new Error('O ProductInfo ID e Review são obrigatórios.');
+    }
+    res.send(
+      await ProductInfoService.createReview(params.review, params.productId)
+    );
+    logger.info(`[PRODUCT_INFO] POST`);
+  } catch (err) {
+    next(err);
+  }
+}
+
+async function deleteReview(req, res, next) {
+  try {
+    const review = ProductInfoService.deleteReview(
+      req.params.id,
+      req.params.index
+    );
+    res.send({
+      message: 'O ProductInfo ID informado foi excluído com sucesso.',
+      review: review,
+    });
+    logger.info(`[PRODUCT_INFO] DELETE`);
+  } catch (err) {
+    next(err);
+  }
+}
+
+export default {
+  createProductInfo,
+  updateProductInfo,
+  getProductInfo,
+  deleteProductInfo,
+  createReview,
+  deleteReview,
+};
