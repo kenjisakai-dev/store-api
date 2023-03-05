@@ -1851,3 +1851,10 @@ O product_id informado não existe.
 2023-03-05T02:52:01.277Z [store-api] info [PRODUCT] GET
 2023-03-05T03:15:29.890Z [store-api] info [PRODUCT_INFO] POST - {"productId":23,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040951860dffd97d173e7b"}
 2023-03-05T03:15:49.846Z [store-api] info [PRODUCT_INFO] POST - {"productId":23,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040965f8d99890c49bd3e3"}
+2023-03-05T03:24:46.580Z [store-api] info [PRODUCT] POST - {"productId":24,"name":"Mouse Dell","description":"Modelo dell2","value":"50","stock":2,"supplierId":12}
+2023-03-05T03:24:49.682Z [store-api] info [PRODUCT] POST - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-05T03:24:51.732Z [store-api] info [PRODUCT] GET
+2023-03-05T03:25:05.776Z [store-api] info [PRODUCT_INFO] POST - {"acknowledged":true,"insertedId":"64040b91e4c17511a6022be7"}
+2023-03-05T03:25:38.771Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040bb2df21236ee563bb67"}
+2023-03-05T03:37:14.188Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040e6a66bcea7f5c2a7793"}
+2023-03-05T03:37:30.249Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040e7a66bcea7f5c2a7794"}

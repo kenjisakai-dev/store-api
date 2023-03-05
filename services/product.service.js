@@ -41,15 +41,10 @@ async function deleteProduct(id) {
   return await ProductRepository.deleteProduct(id);
 }
 
-async function createProductInfo(productInfo) {
-  await ProductInfoRepository.createProductInfo(productInfo);
-}
-
 export default {
   createProduct,
   getProducts,
   getProduct,
   updateProduct,
   deleteProduct,
-  createProductInfo,
 };

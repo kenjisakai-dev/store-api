@@ -5,6 +5,7 @@ import clientsRouter from './routes/client.route.js';
 import productsRouter from './routes/product.route.js';
 import suppliersRouter from './routes/supplier.route.js';
 import salesRouter from './routes/sale.route.js';
+import productInfoRouter from './routes/productInfo.route.js';
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -27,6 +28,7 @@ app.use('/client', clientsRouter);
 app.use('/product', productsRouter);
 app.use('/supplier', suppliersRouter);
 app.use('/sale', salesRouter);
+app.use('/product/info', productInfoRouter);
 
 app.use((err, req, res, next) => {
   logger.error(`${req.method} ${req.baseURL} - ${err.message}`);

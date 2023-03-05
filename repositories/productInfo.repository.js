@@ -8,6 +8,7 @@ async function createProductInfo(productInfo) {
       .db('store-api')
       .collection('productInfo')
       .insertOne(productInfo);
+    return productInfo;
   } catch (err) {
     throw err;
   } finally {
