@@ -1946,3 +1946,18 @@ O product_id informado não existe.
 2023-03-05T19:23:58.028Z [store-api] info [PRODUCT_INFO] DELETE
 2023-03-05T19:30:02.234Z [store-api] info [PRODUCT_INFO] POST
 2023-03-05T19:30:08.956Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T19:53:48.589Z [store-api] info [PRODUCT_INFO] POST
+2023-03-05T21:09:29.436Z [store-api] error GET undefined - invalid input syntax for type integer: "review"
+2023-03-05T21:09:32.126Z [store-api] error GET undefined - invalid input syntax for type integer: "review"
+2023-03-05T21:11:00.779Z [store-api] info [PRODUCT_INFO] GET
+2023-03-05T21:17:20.036Z [store-api] info [PRODUCT_INFO] GET
+2023-03-05T21:18:23.770Z [store-api] error GET undefined - invalid input syntax for type integer: "info"
+2023-03-05T21:18:25.918Z [store-api] error GET undefined - invalid input syntax for type integer: "info"
+2023-03-05T21:18:37.922Z [store-api] info [PRODUCT_INFO] GET
+2023-03-05T21:28:43.762Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T21:29:10.901Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T21:30:42.846Z [store-api] info [PRODUCT] POST - {"productId":26,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-05T21:31:23.893Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64050a2b7f453abdf3703b5f"}
+2023-03-05T21:31:32.416Z [store-api] info [PRODUCT_INFO] POST - {"productId":26,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64050a347f453abdf3703b60"}
+2023-03-05T21:32:18.011Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T21:50:58.969Z [store-api] info [PRODUCT_INFO] DELETE

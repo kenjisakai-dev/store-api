@@ -5,6 +5,7 @@ const router = express.Router();
 
 router.post('/', ProductInfoController.createProductInfo);
 router.put('/', ProductInfoController.updateProductInfo);
+router.get('/review', ProductInfoController.getProductsInfo);
 router.get('/:id', ProductInfoController.getProductInfo);
 router.delete('/:id', ProductInfoController.deleteProductInfo);
 router.post('/review', ProductInfoController.createReview);
