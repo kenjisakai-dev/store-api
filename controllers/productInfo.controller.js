@@ -32,7 +32,7 @@ async function getProductInfo(req, res, next) {
   try {
     let productInfo = await ProductInfoService.getProductInfo(req.params.id);
     res.send(productInfo);
-    logger.info(`[PRODUCT_INFO] UPDATE - ${JSON.stringify(productInfo)}`);
+    logger.info(`[PRODUCT_INFO] GET - ${JSON.stringify(productInfo)}`);
   } catch (err) {
     next(err);
   }
