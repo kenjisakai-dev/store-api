@@ -1,9 +1,11 @@
-import mongodb from 'mongodb';
+import mongoose from 'mongoose';
 
-function getClient() {
+async function connect() {
   const uri = 'mongodb+srv://root:123@clusternode.nliduqy.mongodb.net/test';
-  return new mongodb.MongoClient(uri);
-  // cria um objeto de conexão
+  return await mongoose.connect(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
 }
 
-export { getClient };
+export { connect };
