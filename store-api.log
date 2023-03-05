@@ -1858,3 +1858,10 @@ O product_id informado não existe.
 2023-03-05T03:25:38.771Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040bb2df21236ee563bb67"}
 2023-03-05T03:37:14.188Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040e6a66bcea7f5c2a7793"}
 2023-03-05T03:37:30.249Z [store-api] info [PRODUCT_INFO] POST - {"productId":25,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040e7a66bcea7f5c2a7794"}
+2023-03-05T03:54:57.996Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2023-03-05T04:11:37.620Z [store-api] info [PRODUCT] GET
+2023-03-05T04:33:48.949Z [store-api] error GET undefined - Cannot set properties of null (setting 'info')
+2023-03-05T04:33:53.519Z [store-api] error GET undefined - Cannot set properties of null (setting 'info')
+2023-03-05T04:34:36.809Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12,"info":{"_id":"64040b91e4c17511a6022be7","productId":25,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}}
+2023-03-05T04:35:07.929Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-05T04:38:20.509Z [store-api] info [PRODUCT_INFO] UPDATE - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12,"info":{"_id":"64040b91e4c17511a6022be7","productId":25,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}}
