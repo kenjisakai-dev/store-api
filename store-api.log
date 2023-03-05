@@ -1847,3 +1847,7 @@ O product_id informado não existe.
 2023-03-04T20:02:09.463Z [store-api] info [PRODUCT] GET
 2023-03-04T20:02:16.534Z [store-api] info [SALE] POST - {"saleId":38,"value":"50","date":"2000-01-06","clientId":16,"productId":23}
 2023-03-04T20:02:18.590Z [store-api] info [PRODUCT] GET
+2023-03-05T02:51:38.802Z [store-api] info [PRODUCT] GET
+2023-03-05T02:52:01.277Z [store-api] info [PRODUCT] GET
+2023-03-05T03:15:29.890Z [store-api] info [PRODUCT_INFO] POST - {"productId":23,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040951860dffd97d173e7b"}
+2023-03-05T03:15:49.846Z [store-api] info [PRODUCT_INFO] POST - {"productId":23,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64040965f8d99890c49bd3e3"}
