@@ -1961,3 +1961,224 @@ O product_id informado não existe.
 2023-03-05T21:31:32.416Z [store-api] info [PRODUCT_INFO] POST - {"productId":26,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"64050a347f453abdf3703b60"}
 2023-03-05T21:32:18.011Z [store-api] info [PRODUCT_INFO] DELETE
 2023-03-05T21:50:58.969Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-05T22:54:12.599Z [store-api] error POST undefined - The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2023-03-05T22:56:46.870Z [store-api] error POST undefined - The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2023-03-05T22:57:51.333Z [store-api] error POST undefined - The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2023-03-05T23:01:42.251Z [store-api] error POST undefined - The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2023-03-05T23:03:07.012Z [store-api] error POST undefined - The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2023-03-05T23:03:08.014Z [store-api] error POST undefined - The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2023-03-05T23:04:26.597Z [store-api] error POST undefined - productInfo is not a constructor
+2023-03-05T23:06:11.845Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:06:26.285Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:09:08.399Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:12:15.978Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:18:08.479Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:18:20.583Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:22.244Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:22.734Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:23.164Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:23.503Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:23.994Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:24.456Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:24.964Z [store-api] error GET undefined - getaddrinfo EAI_AGAIN tiny.db.elephantsql.com
+2023-03-05T23:18:29.756Z [store-api] info [CLIENT] GET
+2023-03-05T23:18:32.652Z [store-api] info [CLIENT] POST - {"clientId":18,"name":"kenji","cpf":"39349400000","phone":"11982232542","email":"kenji@gmail.com","address":"Rua Paulo N° 20"}
+2023-03-05T23:18:41.206Z [store-api] info [PRODUCT] POST - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-05T23:18:50.309Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:19:16.138Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:20:08.754Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:20:55.453Z [store-api] info [PRODUCT_INFO] UPDATE - undefined
+2023-03-05T23:30:01.912Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:08.756Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:09.718Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:10.608Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:11.369Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:11.772Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:12.246Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:12.548Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:12.828Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:13.264Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:13.515Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:13.677Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:14.045Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:31:14.265Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:32:02.693Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:32:58.555Z [store-api] info [PRODUCT_INFO] GET
+2023-03-05T23:32:59.484Z [store-api] info [PRODUCT_INFO] GET
+2023-03-05T23:33:08.630Z [store-api] info [PRODUCT_INFO] GET
+2023-03-05T23:33:15.411Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:17.548Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:18.150Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:18.640Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:19.094Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:19.526Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:19.994Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:20.438Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:20.674Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:20.869Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:21.050Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:21.242Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:21.404Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:21.567Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:21.726Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:21.872Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.028Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.172Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.327Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.460Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.624Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.766Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:22.925Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:23.076Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:23.244Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:23.400Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:23.567Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:23.735Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:23.897Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:24.063Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:24.231Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:24.383Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:24.551Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:24.706Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:25.408Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:25.854Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:26.076Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:26.283Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:26.461Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:26.640Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:26.813Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:26.984Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:27.158Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:27.332Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:27.532Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:27.678Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:27.834Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:28.012Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:28.185Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:28.357Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:28.528Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:28.686Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:28.855Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:29.002Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:29.156Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:29.308Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:29.460Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:29.743Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:29.965Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:30.789Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:30.792Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:30.963Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:30.964Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.154Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.193Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.273Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.331Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.512Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.566Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.643Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.779Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.781Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.832Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.861Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:31.926Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.091Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.282Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.306Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.372Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.406Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.451Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.614Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.709Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.972Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:32.987Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.016Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.089Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.116Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.205Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.241Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.297Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.383Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.398Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.512Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.514Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.705Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.789Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.920Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:33.978Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.018Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.053Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.067Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.124Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.132Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.142Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:34.145Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:36.006Z [store-api] error GET undefined - ProductInfoRepository.getProduct is not a function
+2023-03-05T23:33:59.117Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:34:29.832Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:34:31.975Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:34:32.908Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:34:33.621Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-05T23:35:20.475Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T01:52:39.105Z [store-api] error POST undefined - Cannot use 'in' operator to search for 'pluralization' in undefined
+2023-03-06T15:40:55.919Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T15:41:56.930Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T15:42:16.824Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T15:52:55.926Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T15:53:04.841Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:31:38.825Z [store-api] info [PRODUCT] POST - {"productId":28,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:31:54.677Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:32:31.851Z [store-api] info [PRODUCT_INFO] UPDATE - undefined
+2023-03-06T16:32:35.913Z [store-api] info [PRODUCT_INFO] UPDATE - undefined
+2023-03-06T16:33:05.107Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-06T16:36:05.661Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:36:13.276Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-06T16:36:44.884Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:36:52.639Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-06T16:37:27.177Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T16:37:32.719Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T16:37:44.415Z [store-api] info [PRODUCT_INFO] GET - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:38:01.786Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-06T16:38:07.459Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:38:13.145Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:38:17.028Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:38:19.950Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:38:52.719Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-06T16:39:20.825Z [store-api] info [PRODUCT_INFO] DELETE
+2023-03-06T16:40:29.257Z [store-api] info [PRODUCT_INFO] GET - {"productId":25,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:41:13.767Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T16:42:19.508Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:43:29.405Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:43:31.740Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T16:43:46.638Z [store-api] info [PRODUCT_INFO] POST - undefined
+2023-03-06T16:43:48.866Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T16:43:58.654Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:44:23.467Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T16:46:34.465Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T16:46:52.737Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T17:05:56.398Z [store-api] error GET undefined - Assignment to constant variable.
+2023-03-06T17:06:10.152Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T17:08:07.504Z [store-api] info [PRODUCT_INFO] GET - {"_id":"640609d803b699937443a834","productId":27,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[{"name":"Kenji Sakai","description":"teste teste teste1","_id":"640616f4e509b83658df2c2e"},{"name":"Kenji Sakai","description":"teste teste teste2","_id":"640616f8e509b83658df2c36"}],"__v":0}
+2023-03-06T17:08:58.734Z [store-api] info [PRODUCT_INFO] GET - {"_id":"640609d803b699937443a834","productId":27,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[{"name":"Kenji Sakai","description":"teste teste teste1","_id":"640616f4e509b83658df2c2e"},{"name":"Kenji Sakai","description":"teste teste teste2","_id":"640616f8e509b83658df2c36"}],"__v":0}
+2023-03-06T17:09:17.090Z [store-api] error GET undefined - Assignment to constant variable.
+2023-03-06T17:09:42.119Z [store-api] error GET undefined - Assignment to constant variable.
+2023-03-06T17:09:54.859Z [store-api] error GET undefined - Assignment to constant variable.
+2023-03-06T17:13:20.602Z [store-api] error GET undefined - valor is not defined
+2023-03-06T17:14:48.587Z [store-api] error GET undefined - valor is not defined
+2023-03-06T17:15:27.737Z [store-api] error GET undefined - valor is not defined
+2023-03-06T17:15:41.378Z [store-api] info [PRODUCT_INFO] GET - {"_id":"640609d803b699937443a834","productId":27,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[{"name":"Kenji Sakai","description":"teste teste teste1","_id":"640616f4e509b83658df2c2e"},{"name":"Kenji Sakai","description":"teste teste teste2","_id":"640616f8e509b83658df2c36"}],"__v":0}
+2023-03-06T17:16:07.864Z [store-api] error GET undefined - Assignment to constant variable.
+2023-03-06T17:16:22.699Z [store-api] info [PRODUCT_INFO] GET - {"_id":"640609d803b699937443a834","productId":27,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[{"name":"Kenji Sakai","description":"teste teste teste1","_id":"640616f4e509b83658df2c2e"},{"name":"Kenji Sakai","description":"teste teste teste2","_id":"640616f8e509b83658df2c36"}],"__v":0}
+2023-03-06T17:16:44.309Z [store-api] info [PRODUCT_INFO] GET - "[object SequelizeInstance:products]{\n  _id: new ObjectId(\"640609d803b699937443a834\"),\n  productId: 27,\n  category: 'Mouse',\n  width: '15cm',\n  height: '20cm',\n  depth: '5cm',\n  reviews: [\n    {\n      name: 'Kenji Sakai',\n      description: 'teste teste teste1',\n      _id: new ObjectId(\"640616f4e509b83658df2c2e\")\n    },\n    {\n      name: 'Kenji Sakai',\n      description: 'teste teste teste2',\n      _id: new ObjectId(\"640616f8e509b83658df2c36\")\n    }\n  ],\n  __v: 0\n}"
+2023-03-06T17:17:09.680Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T17:19:04.774Z [store-api] info [PRODUCT_INFO] GET - {"productId":27,"name":"Mouse Dell","description":"Modelo dell","value":"50","stock":2,"supplierId":12}
+2023-03-06T17:20:03.839Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:22:19.971Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:22:35.180Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:22:37.781Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:22:39.318Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:22:45.514Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:22:53.849Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:24:03.914Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:24:22.521Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:24:31.442Z [store-api] info [PRODUCT_INFO] GET
+2023-03-06T17:25:30.099Z [store-api] info [PRODUCT_INFO] GET

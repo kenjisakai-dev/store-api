@@ -30,9 +30,8 @@ async function updateProductInfo(req, res, next) {
 
 async function getProductInfo(req, res, next) {
   try {
-    let productInfo = await ProductInfoService.getProductInfo(req.params.id);
-    res.send(productInfo);
-    logger.info(`[PRODUCT_INFO] GET - ${JSON.stringify(productInfo)}`);
+    res.send(await ProductInfoService.getProductInfo(req.params.id));
+    logger.info(`[PRODUCT_INFO] GET`);
   } catch (err) {
     next(err);
   }
@@ -40,13 +39,9 @@ async function getProductInfo(req, res, next) {
 
 async function deleteProductInfo(req, res, next) {
   try {
-    const productInfo = await ProductInfoService.getProductInfo(req.params.id);
     await ProductInfoService.deleteProductInfo(req.params.id);
-    res.send({
-      message: 'O ProductInfo ID informado foi excluído com sucesso.',
-      productInfo: productInfo,
-    });
     logger.info(`[PRODUCT_INFO] DELETE`);
+    res.end();
   } catch (err) {
     next(err);
   }

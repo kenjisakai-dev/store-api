@@ -1,76 +1,59 @@
-import { getClient } from './mongo.db.js';
-import Product from '../models/product.model.js';
+import ProductInfoSchema from '../schemas/productInfo.schema.js';
+import { connect } from './mongo.db.js';
 
 async function createProductInfo(productInfo) {
-  const client = getClient();
   try {
-    await client.connect();
-    await client
-      .db('store-api')
-      .collection('productInfo')
-      .insertOne(productInfo);
-    return productInfo;
+    const mongoose = await connect();
+    const ProductInfo = mongoose.model('productInfo', ProductInfoSchema);
+    productInfo = new ProductInfo(productInfo);
+    await productInfo.save();
   } catch (err) {
     throw err;
-  } finally {
-    await client.close();
   }
 }
 
-async function updateProductInfo(productInfo) {
-  const client = getClient();
+async function getProductsInfo() {
   try {
-    await client.connect();
-    await client
-      .db('store-api')
-      .collection('productInfo')
-      .updateOne(
-        { productId: productInfo.productId },
-        { $set: { ...productInfo } }
-      );
-    return productInfo;
+    const mongoose = await connect();
+    const ProductInfo = mongoose.model('productInfo', ProductInfoSchema);
+    const query = ProductInfo.find({});
+    return await query.exec();
   } catch (err) {
     throw err;
-  } finally {
-    await client.close();
   }
 }
 
 async function getProductInfo(productId) {
-  const client = getClient();
   try {
-    await client.connect();
-    return await client
-      .db('store-api')
-      .collection('productInfo')
-      .findOne({ productId });
+    const mongoose = await connect();
+    const ProductInfo = mongoose.model('productInfo', ProductInfoSchema);
+    const query = ProductInfo.findOne({ productId });
+    return await query.exec();
   } catch (err) {
     throw err;
-  } finally {
-    await client.close();
   }
 }
 
-async function getProduct(id) {
+async function updateProductInfo(productInfo) {
   try {
-    return await Product.findByPk(id, { raw: true });
+    const mongoose = await connect();
+    const ProductInfo = mongoose.model('productInfo', ProductInfoSchema);
+    await ProductInfo.findOneAndUpdate(
+      { productId: productInfo.productId },
+      productInfo
+    );
   } catch (err) {
     throw err;
   }
 }
 
 async function deleteProductInfo(productId) {
-  const client = getClient();
   try {
-    await client.connect();
-    return await client
-      .db('store-api')
-      .collection('productInfo')
-      .deleteOne({ productId });
+    const mongoose = await connect();
+    const ProductInfo = mongoose.model('productInfo', ProductInfoSchema);
+    await ProductInfo.deleteOne({ productId });
   } catch (err) {
     throw err;
-  } finally {
-    await client.close();
   }
 }
 
@@ -79,7 +62,6 @@ async function createReview(review, productId) {
     const productInfo = await getProductInfo(productId);
     productInfo.reviews.push(review);
     await updateProductInfo(productInfo);
-    return review;
   } catch (err) {
     throw err;
   }
@@ -95,29 +77,12 @@ async function deleteReview(productId, index) {
   }
 }
 
-async function getProductsInfo() {
-  const client = getClient();
-  try {
-    await client.connect();
-    return await client
-      .db('store-api')
-      .collection('productInfo')
-      .find({})
-      .toArray();
-  } catch (err) {
-    throw err;
-  } finally {
-    await client.close();
-  }
-}
-
 export default {
   createProductInfo,
-  updateProductInfo,
+  getProductsInfo,
   getProductInfo,
-  getProduct,
+  updateProductInfo,
   deleteProductInfo,
   createReview,
   deleteReview,
-  getProductsInfo,
 };

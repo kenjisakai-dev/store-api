@@ -7,9 +7,10 @@ const ProductInfoSchema = new mongoose.Schema(
     category: String,
     width: String,
     height: String,
+    depth: String,
     reviews: [ReviewSchema],
   },
-  { collation: 'productInfo' }
+  { collection: 'productInfo' }
 );
 
 export default ProductInfoSchema;
