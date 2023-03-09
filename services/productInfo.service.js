@@ -1,17 +1,22 @@
 import ProductInfoRepository from '../repositories/productInfo.repository.js';
+import ProductRepository from '../repositories/product.repository.js';
 
 async function createProductInfo(productInfo) {
   return await ProductInfoRepository.createProductInfo(productInfo);
 }
 
-async function updateProductInfo(productInfo) {
-  return await ProductInfoRepository.updateProductInfo(productInfo);
+async function getProductsInfo() {
+  return await ProductInfoRepository.getProductsInfo();
 }
 
 async function getProductInfo(id) {
-  const product = await ProductInfoRepository.getProduct(id);
-  product.info = await ProductInfoRepository.getProductInfo(parseInt(id));
-  return product;
+  const product = await ProductRepository.getProduct(id);
+  const info = await ProductInfoRepository.getProductInfo(parseInt(id));
+  return { product, info };
+}
+
+async function updateProductInfo(productInfo) {
+  return await ProductInfoRepository.updateProductInfo(productInfo);
 }
 
 async function deleteProductInfo(productId) {
@@ -24,10 +29,6 @@ async function createReview(review, id) {
 
 async function deleteReview(productId, index) {
   await ProductInfoRepository.deleteReview(parseInt(productId), index);
-}
-
-async function getProductsInfo() {
-  return await ProductInfoRepository.getProductsInfo();
 }
 
 export default {

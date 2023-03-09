@@ -5,7 +5,7 @@ const ReviewSchema = new mongoose.Schema(
     name: String,
     description: String,
   },
-  { collation: 'productInfo' }
+  { collection: 'productInfo' }
 );
 
 export default ReviewSchema;
