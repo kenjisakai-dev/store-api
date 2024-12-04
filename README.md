@@ -57,13 +57,13 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
         MONGODB_CONNECTION_STRING = "string de conexão do mongoDB"
         ```
 
-3. Inicie o projeto Localmente
+3. Execute o endpoint `http://localhost:3000/database/create` para gerar as tabelas no banco de dados
+
+4. Inicie o projeto Localmente
 
     ```sh
     npm run start
     ```
-
-4. Execute o endpoint `http://localhost:3000/database/create` para gerar as tabelas no banco de dados
 
 ## 🔛 Como consultar os endpoints
 
