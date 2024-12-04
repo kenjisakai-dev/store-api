@@ -63,6 +63,8 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
     npm run start
     ```
 
+4. Execute o endpoint `http://localhost:3000/database/create` para gerar as tabelas no banco de dados
+
 ## 🔛 Como consultar os endpoints
 
 ### Clientes
