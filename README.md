@@ -89,7 +89,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 201        | Created     | O cliente foi cadastrado com sucesso |
 | 400        | Bad Request | Houve um erro ao cadastrar o cliente |
 
-#### **Resposta 201 do endoint**
+#### **Resposta 201 do endpoint**
 
 ```json
 {
@@ -116,7 +116,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | Os clientes foram listados com sucesso |
 | 400        | Bad Request | Houve um erro ao listar os clientes    |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 [
@@ -161,7 +161,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | O cliente foi obtido com sucesso |
 | 400        | Bad Request | Houve um erro ao obter o cliente |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -199,7 +199,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | O cliente foi atualizado com sucesso |
 | 400        | Bad Request | Houve um erro ao atualizar o cliente |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -238,7 +238,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 201        | Created     | O fornecedor foi cadastrado com sucesso |
 | 400        | Bad Request | Houve um erro ao cadastrar o fornecedor |
 
-#### **Resposta 201 do endoint**
+#### **Resposta 201 do endpoint**
 
 ```json
 {
@@ -265,7 +265,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | Os fornecedores foram listados com sucesso |
 | 400        | Bad Request | Houve um erro ao listar os fornecedores    |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 [
@@ -310,7 +310,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | O fornecedor foi obtido com sucesso |
 | 400        | Bad Request | Houve um erro ao obter o fornecedor |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -348,7 +348,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | O fornecedor foi atualizado com sucesso |
 | 400        | Bad Request | Houve um erro ao atualizar o fornecedor |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -387,7 +387,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 201        | Created     | O produto foi cadastrado com sucesso |
 | 400        | Bad Request | Houve um erro ao cadastrar o produto |
 
-#### **Resposta 201 do endoint**
+#### **Resposta 201 do endpoint**
 
 ```json
 {
@@ -414,7 +414,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | Os produtos foram listados com sucesso |
 | 400        | Bad Request | Houve um erro ao listar os produtos    |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 [
@@ -459,7 +459,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | O produto foi obtido com sucesso |
 | 400        | Bad Request | Houve um erro ao obter o produto |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -497,7 +497,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | O produto foi atualizado com sucesso |
 | 400        | Bad Request | Houve um erro ao atualizar o produto |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -533,7 +533,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 201        | Created     | A venda foi cadastrada com sucesso |
 | 400        | Bad Request | Houve um erro ao registrar a venda |
 
-#### **Resposta 201 do endoint**
+#### **Resposta 201 do endpoint**
 
 ```json
 {
@@ -559,7 +559,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | As vendas foram listadas com sucesso |
 | 400        | Bad Request | Houve um erro ao listar as vendas    |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 [
@@ -642,7 +642,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | A venda foi obtida com sucesso |
 | 400        | Bad Request | Houve um erro ao obter a venda |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -700,7 +700,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 201        | Created     | A informação do produto foi criada com sucesso |
 | 400        | Bad Request | Houve um erro ao criar informação do produto   |
 
-#### **Resposta 201 do endoint**
+#### **Resposta 201 do endpoint**
 
 ```json
 {
@@ -727,7 +727,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | As informações dos produtos foram listadas com sucesso |
 | 400        | Bad Request | Houve um erro ao listar as informações do produtos     |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 [
@@ -771,7 +771,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | As informações dos produtos foram listadas com sucesso |
 | 400        | Bad Request | Houve um erro ao listar as informações do produtos     |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -826,7 +826,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 200        | Ok          | As informações dos produtos foram listadas com sucesso |
 | 400        | Bad Request | Houve um erro ao listar as informações do produtos     |
 
-#### **Resposta 200 do endoint**
+#### **Resposta 200 do endpoint**
 
 ```json
 {
@@ -867,7 +867,7 @@ A Store API permite o gerenciamento de uma plataforma de vendas que controla as 
 | 201        | Created     | O review do produto foi criado com sucesso |
 | 400        | Bad Request | Houve um erro ao criar review do produto   |
 
-#### **Resposta 201 do endoint**
+#### **Resposta 201 do endpoint**
 
 ```json
 {
