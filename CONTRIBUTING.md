@@ -68,4 +68,3 @@ Caso encontre algum bug ou tenha uma sugestão de melhoria:
 Ao participar deste projeto, espere interações respeitosas e colaborativas com todos os membros da comunidade.
 
 Obrigado por contribuir com a Store API! 🎉
-```
